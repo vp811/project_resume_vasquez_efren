@@ -108,3 +108,17 @@ nav ul a li:hover {
 #education a {
     margin-left: 30%;
 }
+
+/* --------------------Contact-------------------------- */
+#contact {
+    background-color: #d3d3d3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 4% 2% 2%;
+    margin-top: 5%;
+}
+
+#contact a {
+    margin-left: 30%;
+}
