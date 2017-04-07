@@ -23,6 +23,10 @@ h2 {
     font-family: 'Acme', sans-serif;
 }
 
+#about-me {
+    display: none;
+}
+
 /* --------------------Header-------------------------- */
 nav {
     background-color: #2f4f4f;
