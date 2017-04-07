@@ -284,6 +284,7 @@ nav ul a li:hover {
         border: solid 3px black;
         width: 40%;
         margin-right: 2%;
+        font-size: 1.3em;
     }
 
     #skills {
@@ -292,6 +293,7 @@ nav ul a li:hover {
         border: solid 3px black;
         width: 40%;
         margin-left: 2%;
+        font-size: 1.3em;
     }
 
     #interest {
@@ -300,5 +302,12 @@ nav ul a li:hover {
         border: solid 3px black;
         width: 40%;
         margin-right: 2%;
+    }
+
+    #interest span {
+        display: block;
+        text-align: center;
+        font-size: 3.0em;
+        font-family: 'Lobster', sans-serif;
     }
 }
