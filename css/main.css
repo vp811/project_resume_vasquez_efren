@@ -198,4 +198,16 @@ nav ul a li:hover {
         font-size: 1em;
     }
 
+    #experience,
+    #education,
+    #contact,
+    #skills,
+    #interest {
+        width: 70%;
+    }
+
+    #education,
+    #contact {
+        padding: 3% 9%;
+    }
 }
