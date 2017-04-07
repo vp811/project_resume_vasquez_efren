@@ -70,6 +70,7 @@ nav ul a li:hover {
     list-style-type: none;
     font-family: 'Ubuntu', sans-serif;
 }
+
 #experience ul li:first-child {
     padding-bottom: 5%;
     font-weight: bold;
@@ -209,5 +210,95 @@ nav ul a li:hover {
     #education,
     #contact {
         padding: 3% 9%;
+    }
+}
+
+/* --------------------------Screens larger than 1000px-------------------------------- */
+@media screen and (min-width: 1000px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    body {
+        background-image: url('../img/background.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    nav {
+        padding: 1% 0%;
+        width: 100%;
+    }
+    nav ul a {
+        font-size: 1.3em;
+    }
+
+    nav ul a li:hover {
+        padding: 0% 4% 0% 0%;
+        background-color: inherit;
+    }
+
+    #about-me {
+        display: inline-block;
+        background-color: #c0c0c0;
+        width: 40%;
+        float: left;
+        margin-top: 5%;
+        margin-left: 2%;
+        border: solid 3px black;
+    }
+
+    #about-me img {
+        margin-left: 35%;
+        border: 3px solid black;
+        width: 30%;
+    }
+
+    #about-me p {
+        padding: 0% 3%;
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+    }
+
+    #experience {
+        float: right;
+        clear: both;
+        margin-top: 5%;
+        border: solid 3px black;
+        width: 50%;
+        margin-right: 2%;
+    }
+
+    #education {
+        float: left;
+        clear: both;
+        border: solid 3px black;
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    #contact {
+        float: right;
+        clear: both;
+        border: solid 3px black;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    #skills {
+        float: left;
+        clear: both;
+        border: solid 3px black;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    #interest {
+        float: right;
+        clear: both;
+        border: solid 3px black;
+        width: 40%;
+        margin-right: 2%;
     }
 }
