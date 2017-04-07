@@ -3,3 +3,10 @@ $(document).ready(function () {
         $('#name').css('color', 'yellow');
     });
 });
+
+jQuery(function ($) {
+    $(document).ready(function () {
+    //enabling stickUp on the '.navbar-wrapper' class
+        $('.navbar-wrapper').stickUp();
+    });
+});
