@@ -183,3 +183,19 @@ nav ul a li:hover {
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
 }
+
+/* --------------------------Screens larger than 600px-------------------------------- */
+@media screen and (min-width: 600px) {
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        text-align: center;
+        padding-right: 4%;
+        font-size: 1em;
+    }
+
+}
