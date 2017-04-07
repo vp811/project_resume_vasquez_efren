@@ -12,10 +12,16 @@ body {
     background-color: #696969;
 }
 
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
 h2 {
     text-decoration: underline;
     text-align: center;
+    font-family: 'Acme', sans-serif;
 }
+
 /* --------------------Header-------------------------- */
 nav {
     background-color: #2f4f4f;
@@ -32,6 +38,7 @@ nav ul li {
     list-style-type: none;
     text-align: center;
     padding: 4% 0%;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 nav ul a {
@@ -50,11 +57,12 @@ nav ul a li:hover {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 2%;
+    padding: 2% 4% 2% 2%;
 }
 
 #experience ul li {
     list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
 }
 #experience ul li:first-child {
     padding-bottom: 5%;
@@ -65,4 +73,8 @@ nav ul a li:hover {
 #experience ul li:nth-child(2) {
     padding-bottom: 5%;
     font-weight: bold;
+}
+
+#experience a {
+    margin-left: 30%;
 }
