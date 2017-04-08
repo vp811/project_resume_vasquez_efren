@@ -49,22 +49,23 @@ nav {
 
 nav ul {
     padding-left: 0;
+    text-align: center;
 }
 
 nav ul li {
     list-style-type: none;
-    text-align: center;
-    padding: 4% 0%;
+    padding: 4% 3% 4% 2%;
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.3em;
+    display: inline;
 }
 
-nav ul a {
+nav ul li a {
     text-decoration: none;
     color: white;
 }
 
-nav ul a li:hover {
+nav ul li a:hover {
     background-color: #696969;
     color: black;
 }
