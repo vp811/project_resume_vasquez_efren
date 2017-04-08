@@ -8,6 +8,18 @@ html {
     box-sizing: inherit;
 }
 
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
 body {
     background-color: #696969;
 }
@@ -185,6 +197,13 @@ nav ul a li:hover {
     text-align: center;
 }
 
+#interest span {
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Lobster', sans-serif;
+}
+
 /* --------------------------Screens larger than 600px-------------------------------- */
 @media screen and (min-width: 600px) {
 
@@ -305,9 +324,7 @@ nav ul a li:hover {
     }
 
     #interest span {
-        display: block;
-        text-align: center;
-        font-size: 3.0em;
-        font-family: 'Lobster', sans-serif;
+        font-size: 3em;
+
     }
 }
